@@ -1,0 +1,106 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: hsla(0, 93%, 61%, 0.315);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(216, 69, 69, 0.3);
+  width: 600px;
+}
+
+h1, h2 {
+  text-align: justify;
+  color: #520303a8;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+label {
+  font-weight: bold
+}
+
+input, select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+button {
+  background-color:#520303;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #520303a8;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #520303a8;
+  color: white;
+}
+
+#status-message {
+  margin-top: 15px;
+  text-align: center;
+  color: #ff0000;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #520303a8;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #520303a8;
+  color: white;
+}
+
+#status-message {
+  margin-top: 15px;
+  text-align: center;
+  color: #ff0000;
+  font-weight: bold;
+}
+
+
