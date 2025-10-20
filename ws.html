@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Employee List</title>
+  <link rel="stylesheet" href="ws.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Employee List</h1>
+
+    <form id="employee-form">
+      <input type="hidden" id="grade-id">
+
+      <label for="Fname">First Name: </label>
+      <input type = "text" id="uname" name="name" required/>
+        
+      <label for="Lname">Last Name</label>
+      <input type = "text" id="Lname" name="name"required />
+        
+      <label for="EmailAdd">Email</label>
+      <input type="text" id="EmailAdd"  min="0" max="40" required>
+
+      <button type="submit">Save</button>
+    </form>
+
+    <h2></h2>
+    <table id="employee-table">
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td colspan="4" style="text-align:center;">Loading...</td></tr>
+      </tbody>
+    </table>
+<p id="status-message"></p>
+  </div>
+
+  <script src="ws.js"></script>
+</body>
+</html
